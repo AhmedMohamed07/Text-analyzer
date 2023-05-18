@@ -1,0 +1,23 @@
+.footer {
+  background-color: rgb(4, 4, 66);
+  border-top: 1px solid rgba(228, 220, 220, 0.6);
+  margin-top: 30px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.footer-elements {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 15px;
+}
+.other-pages {
+  list-style: none;
+  display: flex;
+  column-gap: 20px;
+}

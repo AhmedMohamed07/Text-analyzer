@@ -1,0 +1,29 @@
+.navbar {
+  box-shadow: 0 0.3px 0.9px rgba(216, 218, 226, 0.1),
+    0 1.6px 3.6px rgba(222, 222, 223, 0.1);
+  background-color: rgb(4, 4, 66);
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+}
+.nav-elements {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+}
+.app-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+.social-links {
+  list-style: none;
+  display: flex;
+  column-gap: 20px;
+}
+.social-links a {
+  color: white;
+}
